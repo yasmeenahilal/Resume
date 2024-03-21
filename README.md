@@ -10,7 +10,6 @@ You can visit my profile by clicking on the following link:
 ## Projects
 
 ### Resume
-[README.md](README.md)
 ![Resume](https://github.com/yasmeenahilal/Resume/blob/main/Resume.png)
 
 This is my resume project, developed using Python 3.10 and Django, with some elements of Bootstrap, CSS, HTML, and JavaScript.

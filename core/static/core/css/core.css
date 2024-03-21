@@ -1,0 +1,37 @@
+/* Font */
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-fluid.bg-dark {
+    flex: 1; / Fill remaining height /
+}
+
+
+.st-font {
+   font-family: "satisfy";
+}
+
+
+/* service icon color */
+.i-color{
+  color: #ffd700;
+}
+
+/* service subtitle color */
+.ss-color{
+   color: whitesmoke;
+}
+a.nav-link{
+  color: whitesmoke;
+}
+
+a.nav-link:hover {
+  color: black;
+  background-color: #e9cd79;
+}
+

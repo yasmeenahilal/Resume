@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Include Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Your custom CSS -->
+     <style>
+        /* Define custom CSS for icon color */
+        .i-color {
+            color: #ffd700; /* Golden color */
+        }
+    </style>
+
+</head>
+<body>
+    {% extends 'core/base.html' %}
+    {% block content %}
+    <div class="container mt-5">
+        <h1 class="text-warning mb-5 border-bottom">SERVICES</h1>
+
+        <div class="row text-center text-white mb-5">
+            <div class="col-sm-4">
+                <i class="fab fa-python fa-2x mb-3 i-color"></i>
+                <h3>Python</h3>
+                <p class="ss-color">Experienced in Python for web development, data analysis, and automation.
+                    Proficient in utilizing Python libraries to develop efficient solutions,
+                    demonstrating problem-solving skills and innovation.</p>
+            </div>
+
+             <div class="col-sm-4">
+                <i class="fas fa-brain fa-2x mb-3 i-color"></i>
+                <h3>Machine Learning</h3>
+                <p class="ss-color">Skilled in machine learning techniques and algorithms,
+                    with hands-on experience in data preprocessing,
+                    model development, and evaluation. Proficient in utilizing Python and popular
+                    machine learning libraries to analyze data and create predictive models.</p>
+            </div>
+
+             <div class="col-sm-4">
+                <i class="fas fa-code fa-2x mb-3 i-color"></i>
+                <h3>web Development</h3>
+                <p class="ss-color">Proficient in HTML, CSS, and JavaScript for frontend,
+                    complemented by Django expertise for backend development. Experienced in creating dynamic and visually engaging web
+                    applications with a focus on user experience and functionality.</p>
+            </div>
+
+             <div class="col-sm-4">
+                <i class="fas fa-chart-line fa-2x mb-3 i-color"></i>
+                <h3>EDA</h3>
+                <p class="ss-color">Proficient in Exploratory Data Analysis (EDA),
+                    adept at uncovering insights and patterns through data visualization and statistical analysis.
+                    Skilled in utilizing tools like Python, Pandas, and Matplotlib to conduct comprehensive EDA,
+                    enabling informed decision-making.</p>
+            </div>
+
+             <div class="col-sm-4">
+                <i class="fas fa-lightbulb fa-2x mb-3 i-color"></i>
+                <h3>Power BI</h3>
+                <p class="ss-color">Experienced in leveraging Power BI for data visualization and business intelligence,
+                    transforming complex datasets into actionable insights.
+                    Proficient in creating interactive dashboards and reports in Power BI to facilitate data-driven decision-making processes.</p>
+            </div>
+
+             <div class="col-sm-4">
+                <i class="fab fa-linux fa-2x mb-3 i-color"></i>
+                <h3>Linux</h3>
+                <p class="ss-color">Skilled in Linux system administration, proficient in managing servers and deploying applications in Linux environments.
+                    Experienced in shell scripting and command-line operations for automation and system optimization in Linux.</p>
+            </div>
+
+        </div>
+
+    </div>
+    {% endblock content %}
+</body>
+</html>
